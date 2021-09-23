@@ -2,7 +2,7 @@
     margin: 0px;
     width: auto;
     line-height: 100%;
-    /* height: 100px; */
+    /* display: flex; */
 }
 .navA{
     padding-right: 40px;
@@ -35,10 +35,6 @@ header{
     height: 60px;
     background-color: wheat;
 }
-/* .div1 img{
-    position: relative;
-    right: 1300px;
-} */
 .div1 h1{
     /* font-size: 3en; */
     position: relative;
@@ -57,9 +53,9 @@ header{
     font-size: larger;
 }
 .div1{
-    border: 1px solid darkmagenta;
+    border: 1px solid rgb(153, 74, 153);
     padding: 20px;
-    background-color: rgb(196, 212, 212);
+    background-color: rgb(221, 235, 235);
     height: 200px;
     padding-top: 40px;
 }
@@ -67,14 +63,19 @@ h1{
    padding: 20px; 
 }
 table{
-    padding-left: 30px;
-    border: 1px solid black;
+    font-size: 20px;
+    border: 1px solid rgb(240, 223, 223);
+    /* padding-left: 30px; */
     width: 500px;
     height: 400px;
     position: relative;
     right: -500px;
     /* top:-900px;  */
     bottom: 900px;
+}
+table td{
+    border: 1px solid white;
+    padding-left: 50px;
 }
 .div2{
     background-color: white;
@@ -104,6 +105,73 @@ table{
     position: relative;
     top: -485px;
     left: -400px;
+}
+#skills{
+    background-color: rgb(225, 218, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* line-height: 2px; */
+    /* margin-bottom: 10px; */
+    padding: 0px;
+    height: 800px;
+}
+.skills-h1
+{
+    text-decoration: underline;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: darkred;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.first{
+    background-color: rgb(177, 173, 149);
+    padding-left: 170px;
+    margin: 20px;
+    width: 900px;
+    height: 80px;
+    transform: rotate(-3deg);
+}
+.second{
+    background-color: rgb(171, 201, 196);
+    padding-left: 170px;
+    margin: 20px;
+    width: 900px;
+    height: 80px;
+    transform: rotate(-3deg);
+}
+.third{
+    background-color: rgb(172, 135, 163);
+    padding-left: 170px;
+    margin: 20px;
+    width: 900px;
+    height: 80px;
+    transform: rotate(-3deg);   
+}
+.fourth{
+    background-color: rgb(145, 179, 142);
+    padding-left: 170px;
+    margin: 20px;
+    width: 900px;
+    height: 80px;
+    transform: rotate(-3deg);
+}
+.fifth{
+    background-color: rgb(141, 146, 161);
+    padding-left: 170px;
+    margin: 20px;
+    width: 900px;
+    height: 80px;
+    transform: rotate(-3deg);
 }
 footer{
     background-color: wheat;
