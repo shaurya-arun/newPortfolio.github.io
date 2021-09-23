@@ -49,7 +49,7 @@ nav{
     transition: 1s color;
 }
 a:hover{
-    color: red;
+    color: wheat;
     /* font-size: larger; */
 }
 .abc
