@@ -35,10 +35,10 @@ nav{
     margin-top: 100px;
     /* padding: 40px; */
     /* background-color: gray; */
+    transition: 1s;
 }
 #first{
     padding: 10px;
-    transition: 1s;
 }
 #second{
     padding:10px;
